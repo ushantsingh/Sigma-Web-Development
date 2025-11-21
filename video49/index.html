@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Object fit and Position</title>
+    <style>
+        .container{
+            height: 666px;
+            width: 555px;
+            border: 2px solid black;
+            /* background-color: azure; */
+            background-image: url(https://cdn.pixabay.com/photo/2018/08/04/11/30/draw-3583548_1280.png);
+            background-position: center center;
+        }
+        img{
+            width: 466px;
+            height: 488px;
+            /* object-fit: contain; */
+            object-fit:  cover;
+            /* object-position: top right; */
+            /* object-position: bottom right; */
+            /* object-fit: fill; */
+            /* object-fit: scale-down; */
+            /* object-position: 10px 20px; */
+            object-position: 50% 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <img src="https://images.pexels.com/photos/1054655/pexels-photo-1054655.jpeg?_gl=1*15uet2f*_ga*MTc0MDA0MjAzNS4xNzYzMjg2NzQ3*_ga_8JE65Q40S6*czE3NjM3NTAyODAkbzMkZzEkdDE3NjM3NTAyOTgkajQyJGwwJGgw" alt=""> -->
+    </div>
+</body>
+</html>
