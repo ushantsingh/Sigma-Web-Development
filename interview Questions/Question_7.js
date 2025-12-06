@@ -13,4 +13,4 @@ document.querySelector("button").addEventListener
         document.querySelector(".note").innerHTML=(note)
     })
 
-    efkk
+    
