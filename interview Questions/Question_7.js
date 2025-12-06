@@ -12,5 +12,5 @@ document.querySelector("button").addEventListener
         saveNoteToLocalStorage(note)
         document.querySelector(".note").innerHTML=(note)
     })
-fgif
+
     
