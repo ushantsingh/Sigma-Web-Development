@@ -38,7 +38,6 @@ class Lion extends Animal{
     eats() {
         super.eats();
         console.log("Kha rha hoon roar");
-        
     }
 }
 
