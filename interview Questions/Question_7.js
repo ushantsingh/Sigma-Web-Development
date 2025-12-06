@@ -11,4 +11,6 @@ document.querySelector("button").addEventListener
         let note = prompt("Enter your note")
         saveNoteToLocalStorage(note)
         document.querySelector(".note").innerHTML=(note)
-})
+    })
+
+    ias
